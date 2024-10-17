@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: midnightblue;
+}
+
+header {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: midnightblue
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia';
+}
+
+.container {
+    margin: auto;
+}
+
+.inicio h1 {
+    color: #DAA520;
+    font-size: 35pt;
+    text-align: center;
+    font-family: monospace;
+    padding-top: 3em;
+}
+
+.inicio p {
+    font-size: 15pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+.inicio img {
+    padding-top: 5em;
+}
+
+.btn-inicio, .btn-resultado {
+    background-color: #DAA520;
+    color: 	#ffffff;
+    font-size: 18pt;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+div#candidatos {
+    padding: 120px 0px 120px 0px;
+}
+
+figcaption {
+    color: #DAA520;
+    text-align: center;
+    font-size: 13pt;
+}
+
+/*Formatação da Urna*/
+div#urna-votacao {
+    padding: 0px 0px 120px 0px;
+    color: #cccccc;
+}
+
+div.tela-urna {
+    text-align: center;
+    font-size: 15pt;
+    border-radius: 10px;
+    padding-bottom: 1em;
+}
+
+div.teclado {
+    text-align: center;
+    background-color: #cccccc;
+    border-radius: 10px;
+    border: 1px #cccccc solid;
+}
+
+div.teclado button{
+    margin: 10px;
+}
+/*Fim da formatação da Urna */
+
+footer {
+    height: 50%;
+    background-color: black;
+}
+
+footer h5 {
+    color: #ffffff;
+    padding-top: 15px;
+    text-align: center;
+}
+div.modal-content{
+    background-color: midnightblue;
+    color: white;
+}
+table.table-bordered{
+    font-family: sans-serif;
+    color: #DAA520
+
+}
